@@ -1,0 +1,38 @@
+//fonts
+@font-face {
+	font-family: "ROKAFSansBold";
+	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts2201-3@1.0/ROKAFSansBold.woff")
+		format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "ROKAFSansMedium";
+	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts2201-3@1.0/ROKAFSansMedium.woff")
+		format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+.notosanskr * {
+	font-family: "Noto Sans KR", sans-serif;
+}
+
+//common
+@import "common/reset";
+@import "common/header";
+@import "common/footer";
+
+//main
+@import "main/top";
+@import "main/mid";
+@import "main/bottom";
+
+body {
+	font-family: "Noto Sans KR", sans-serif;
+}
+
+.inner {
+	width: 1400px;
+	margin: 0 auto;
+}
